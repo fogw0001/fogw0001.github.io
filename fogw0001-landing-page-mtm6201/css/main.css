@@ -297,6 +297,8 @@ div.icons{
         grid-row:1/2;
         /*defining a height so apply form doesnt grow too long creating spacing issue at bottom*/
         height:570px;
+        /*added padding to right of apply form in desktop view as resizing caused some spacing issues*/
+        padding-right:2rem;
     }
 
     footer.footer{
