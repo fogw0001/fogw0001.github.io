@@ -109,7 +109,7 @@ div.apply form input[type=text]{
     border:none;
     border-radius:10px;
     /*width 100% to have cells fill entire space allotted for them*/
-    width:100%;
+    width:93%;
 
 }
 
@@ -297,8 +297,6 @@ div.icons{
         grid-row:1/2;
         /*defining a height so apply form doesnt grow too long creating spacing issue at bottom*/
         height:570px;
-        /*added padding to right of apply form in desktop view as resizing caused some spacing problems*/
-        padding-right:2rem;
     }
 
     footer.footer{
@@ -318,7 +316,7 @@ div.icons{
 
     /*adjusting spacing of footer icons*/
     div.icons{
-        margin-right:7rem;
+        margin-right:8rem;
         /*grid designation to have icons on right side of viewport with a space in the middle*/
         grid-column:3/4;
     }
