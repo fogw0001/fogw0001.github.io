@@ -128,7 +128,7 @@ div.apply form input[type=submit]{
     border-radius:11px;
 }
 
-span.highlight{
+a.highlight{
     /*changing color to red in the text under the apply form*/
     color:#ff8480;
 }
