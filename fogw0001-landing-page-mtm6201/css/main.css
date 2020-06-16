@@ -108,7 +108,7 @@ div.apply form input[type=text]{
     background-color:#f4f4f5;
     border:none;
     border-radius:10px;
-    /*width 100% to have cells fill entire space allotted for them*/
+    /*width 93% to have cells line up with apply form button*/
     width:93%;
 
 }
