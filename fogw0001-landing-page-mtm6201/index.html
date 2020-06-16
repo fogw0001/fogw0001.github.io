@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <!--wrapper for all content-->
+    <main class="wrapper">
+        <!--header logo-->
+        <header class="head-logo">
+            <img src="imamges/logo/logo.png" alt="d-logo">
+        </header>
+        <!--middle section with titles and apply now form-->
+        <section class="mid-block">
+            <div class="head-text">
+                <h1>Want to be your own boss?</h1>
+                <h3>Start today and make up to $30/hr driving your own vehicle with Dash!</h3>
+            </div>
+            <!--the apply now form-->
+            <div class="apply">
+                <h2>Apply Now!</h2>
+                <p>Enter your info below.</p>
+                <form method="POST">
+                    <input type="text" name="fname" id="fname" placeholder="First name">
+                    <input type="text" name="lname" id="lname" placeholder="Last name">
+                    <input type="text" name="phone-number" id="phone-number" placeholder="Phone number">
+                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    <div>
+                        <input type="checkbox" id="agree-terms" name="agree-terms" value="agree-terms">
+                        <label for="agree-terms">I agree to dash terms</label>
+                    </div>
+                    <input type="submit" value="DRIVE WITH US">
+                </form>
+                <p>Already applied? <span class="highlight">Check your application status here</span></p>
+            </div>
+        </section>
+        <!--yellow footer section-->
+        <footer class="footer">
+            <div class="foot-text-table">
+                <h3>See how much you can earn with Dash.</h3>
+                <p>how man hours do you want to drive with us this week?</p>
+                <!--hour calculater form in footer-->
+                <form method="POST">
+                    <input type="text" name="hours" id="hours" placeholder="Hours">
+                    <input type="text" name="city" id="city" placeholder="City">
+                    <input type="submit" value="CALCULATE">
+                </form>
+            </div>
+            <!--social media icons in footer-->
+            <div class="icons">
+                <img src="images/icons/facebook.svg" alt="facebook logo">
+                <img src="images/icons/instagram.svg" alt="instagram logo">
+                <img src="images/icons/twitter.svg" alt="twitter logo">
+                <img src="images/icons/linkedin.svg" alt="linkedin logo">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
