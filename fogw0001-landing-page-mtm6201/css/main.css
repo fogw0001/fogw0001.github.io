@@ -307,7 +307,7 @@ div.icons{
         grid-column:3/4;
         grid-row:1/2;
         /*defining a height so apply form doesnt grow too long creating spacing issue at bottom*/
-        height:570px;
+        height:540px;
     }
 
     footer.footer{
