@@ -310,8 +310,7 @@ div.icons{
 
     /*fixing spacing of footer form and text*/
     div.foot-text-table{
-        margin-left:7rem;
-        margin-bottom:2rem;
+        margin:1rem 0 3rem 8rem;
     }
 
     /*adjusting spacing of footer icons*/
