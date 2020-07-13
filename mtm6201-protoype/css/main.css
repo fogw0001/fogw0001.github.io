@@ -372,7 +372,7 @@ div.who-what-where p{
 }
 
 /*styling grey blocks on about page*/
-main.main-content div.grey-block{
+div.grey-block{
 	background-color:#f2f2f2;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -931,7 +931,6 @@ div.map-embed{
 	/*adding vertical space to services sections*/
 	div.services-block{
 		margin-top:80px;
-		padding-bottom:80px;
 		/*changing the side by side alignment to each portion taking up half the space available in services section*/
 		grid-template-columns:1fr 1fr;
 		grid-gap:40px;
@@ -944,6 +943,11 @@ div.map-embed{
 
 	div.grey-block.services-block img{
 		grid-column:2/3;
+	}
+
+	div.grey-block.services-block{
+		padding-top:80px;
+		padding-bottom:80px;
 	}
 
 	/*adding vertical space to special thanks section*/
