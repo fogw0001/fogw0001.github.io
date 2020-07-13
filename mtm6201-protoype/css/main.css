@@ -931,7 +931,7 @@ div.map-embed{
 	/*adding vertical space to services sections*/
 	div.services-block{
 		margin-top:80px;
-		margin-bottom:80px;
+		padding-bottom:80px;
 		/*changing the side by side alignment to each portion taking up half the space available in services section*/
 		grid-template-columns:1fr 1fr;
 		grid-gap:40px;
