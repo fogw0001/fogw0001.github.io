@@ -983,6 +983,11 @@ div.map-embed{
 		margin-top:0;
 	}
 
+	/*giving submit button on contact form negative margin right to fix spacing issue caused by text inputs and textarea*/
+	div.contact-form form input[type=submit]{
+		margin-right:-1.5%;
+	}
+
 	/*display grid to put our location and map embed side by side*/
 	div.location-map{
 		display:grid;
