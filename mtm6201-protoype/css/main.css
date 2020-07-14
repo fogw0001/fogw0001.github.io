@@ -477,10 +477,12 @@ div.contact-form{
 	box-shadow:0px 5px 5px #a9a9a9;
 }
 
+/*styles for contact form h1*/
 div.contact-form h1{
 	color:white;
 	margin-top:0;
 	margin-bottom:10px;
+	margin-left:5%;
 }
 
 div.contact-form form label{
@@ -491,7 +493,7 @@ div.contact-form form label{
 	margin-bottom:3px;
 }
 
-div.contact-form form input[type="text"],
+div.contact-form form input[type=text],
 div.contact-form form textarea{
 	/*display block for input boxes to have labels on seperate lines*/
 	display:block;
@@ -503,7 +505,7 @@ div.contact-form form textarea{
 }
 
 /*more styling for inputs*/
-div.contact-form form input[type="text"]{
+div.contact-form form input[type=text]{
 	border-radius:25px;
 	/*width 97% to fix spcing issue with input boxes*/
 	width:97%;
@@ -517,7 +519,7 @@ div.contact-form form textarea{
 }
 
 /*styling for submit button on contact form*/
-div.contact-form form input[type="submit"]{
+div.contact-form form input[type=submit]{
 	width:100%;
 	padding:2px;
 	color:white;
@@ -757,7 +759,7 @@ div.map-embed{
 	/*adding more padding to contact form*/
 	div.contact-form form{
 		padding:30px;
-		/*padding-bottom 0 so contact form downt look too long*/
+		/*padding-bottom 0 so contact form wont look too long*/
 		padding-bottom:0;
 		/*display flex to make it possible to align submit button to the right*/
 		display:flex;
@@ -773,16 +775,18 @@ div.map-embed{
 		margin-bottom:10px;
 	}
 
-	div.contact-form form input[type="text"],
+	div.contact-form form input[type=text],
 	div.contact-form form textarea{
 		padding:15px 0 15px 30px;
 	}
 
 	/*giving the sumit button a fixed width and aligning it to the right*/
-	div.contact-form form input[type="submit"]{
-		width:210px;
+	div.contact-form form input[type=submit]{
+		width:200px;
 		align-self:flex-end;
-		margin-right:2%;
+		padding-top:7px;
+		padding-bottom:7px;
+		border-radius:25px;
 	}
 
 	/*making the embeded map larger for tablet view*/
