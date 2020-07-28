@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Intro to Bootstrap</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar at top -->
+      <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+        <a href="#" class="nav-link navbar-brand">Bootstrap</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse">
+          <div class="navbar-nav ml-auto">
+            <a href="#intro" class="nav-link">Intro</a>
+            <a href="#how-to" class="nav-link">How To</a>
+            <a href="#components" class="nav-link">Components</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main content -->
+    <!--set background color of all content-->
+    <main class="bg-dark py-5">
+      <!--bring all content in from viewport-->
+      <div class="container mx-auto">
+        <div>
+          <!--styling and spacing to introduction-->
+          <h1 id="intro" class="text-info text-center">Introduction to Bootstrap</h1>
+          <p class="mt-3 text-light">Bootstrap is a useful toolkit for web development. It simplifies your code so that you can spend less time on the more difficult heaches that come with web development. Bootstrap has many useful features, such as JavaScript plugins, responsive grid systems, many useful prebuilt components, as well as sass variables and mixins.</p>
+          <img src="img/fred-kearney-qigr9WhV6Fg-unsplash.jpg" class="img-fluid" alt="boots on leaves with pinecone">
+        </div>
+        <!-- 3 columns in desktop, one column in mobile-->
+        <div class="row my-5 py-5 mt-2">
+          <div class="col-12 col-md-4 mt-2">
+            <h3 class="text-center text-info">Mobile First</h3>
+            <p class="text-light">Bootstrap uses a bunch of predefined classes to allow you to create all kinds of layouts using flexbox and grid. Following best practices, Bootstrap has a mobile first approach along with a twelve column system to fit with industry standards.</p>
+          </div>
+          <div class="col-12 col-md-4 mt-2">
+            <h3 class="text-center text-info">Themes</h3>
+            <p class="text-light">Bootstrap features tons of interesting themes to fit your design needs. These are component-based frameworks that work seemlessly with Bootstrap to make designing your website simple and effective.</p>
+          </div>
+          <div class="col-12 col-md-4 mt-2">
+            <h3 class="text-center text-info">Components</h3>
+            <p class="text-light">Bootstrap has many components available that are easy to use and help make your site more user friendly. Using these components requires no knowledge of JavaScript and are easy to add to your site.</p>
+          </div>
+        </div>
+        <div class="my-3 pb-2 my-md-5 pb-md-4">
+          <h2 id="how-to" class="text-info text-center">How to Get Started</h2>
+          <p class="text-light">Getting started is made simple by Bootstrap. All you have to do is link to one stylesheet in the head of your html and add three lines of pre-made JavaScript to the body of your html. The stylesheet will allow you to use the css available to simplify your code and the JavaScript enables all the components. If you go to <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">this link</a> the stylesheet link and JavaScript is available for you. Alternatively, you can also find a starter template there, which has the css and JavaScript attached already, so you can just copy/paste the template and get started with Bootstrap!</p>
+          <p class="text-light"> Once you get set-up its as easy as adding the classes to your html, bootstrap will do the rest.
+        </div>
+        <section class="my-3 my-md-4 py-2 py-md-3">
+          <h2 id="components" class="text-info my-5 text-center">Component Examples</h2>
+          <div class="alert alert-success mb-4" role="alert">
+            <h4 class="alert-heading">Alerts!</h4>
+            <p>This is an alert. Alerts are a useful tool to provide feedback with context to the user. You can change the color to indicate what kind of message you want to convery</p>
+          </div>
+          <div class="row">
+            <!--one column in mobile, 2 at larger view-->
+            <div class="col-12 col-lg-6 mx-auto my-2 my-md-4">
+              <h4 class="text-center mb-5 text-info">Buttons</h4>
+              <p class="text-light">Buttons are a common, but useful component. Buttons are good for indicating actions to the user, whether the action submits a form, links to a page, or activates a dialog. Buttons can be made into many different shapes and sizes to fit your design needs. Press the buttons below to show more examples of components.</p>
+              <!--display flex to have buttons side by side-->
+              <div class="d-inline-flex justify-content-around w-100 my-3">
+                <div>
+                  <!--modal-->
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#example-modal">Modal</button>
+                  <div class="modal fade" id="example-modal" tabindex="-1" role="dialog" aria-labelledby="example-modal-title" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="example-modal-title">Modals!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>This is a modal. Modals are commonly used for lightboxes and user notifications, but they are flexible and can be used for many things. There are many stylistic choices for modals, you can make it so that clicking outside the modal box will close it or that you can only close it by hitting the X or close button. For longer content, you can make it so the modal will scroll without scrolling the page it is overlayed on.</p> <hr> Inside your modal you can use tooltips or popover windows to nest content inside of them. Also, you can use a grid system inside the modal window to align content to match your overall design. You can even create forms inside of your modals, the possibilites are endless!</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Collapse-->
+                <div class="w-25">
+                  <p class="text-center">
+                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapse-example" aria-expanded="false" aria-controls="collapse-example">Collapse</button>
+                  </p>
+                  <div class="collapse" id="collapse-example">
+                    <div class="card card-body">
+                      <p>Collapse is a useful tool for making certain content's visibility a toggle.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--carousel-->
+            <div class="col-12 col-lg-6 mx-auto my-2 my-md-4">
+              <h4 class="text-center mb-5 text-info">Carousel</h4>
+              <div id="carousel-example" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example" data-slide-to="1"></li>
+                  <li data-target="#carousel-example" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg" class="d-block w-100 img-fluid" alt="hand starting to draw">
+                    <div class="carousel-caption">
+                      <h5>This is a Carousel</h5>
+                      <p>A slide-show component that cycles through slides of images or text. Or both!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ken-cheung-Z5ARQ6WNEqA-unsplash.jpg" class="d-block w-100 img-fluid" alt="church at night">
+                    <div class="carousel-caption">
+                      <h5>Functions</h5>
+                      <p>You can add indicators, next/previous buttons, have it auto-scroll or require input.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/amit-sen-U18RJXuZTnM-unsplash.jpg" class="d-block w-100 img-fluid" alt="lights in a dark night">
+                    <div class="carousel-caption">
+                      <h5>Customize</h5>
+                      <p>You can add a cross fade transitions or add captions like this carousel.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main> 
+    <footer>
+      <div class="navbar bg-secondary navbar-dark">
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0 ml-auto ml-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
