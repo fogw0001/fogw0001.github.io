@@ -94,6 +94,16 @@ nav.navbar ul li a{
 	transition:0.5s;
 }
 
+/*adding a hover to the logo to show that it is a button*/
+a.navbar-brand img:hover{
+	opacity:0.5;
+	transition:0.5s;
+}
+
+a.navbar-brand img{
+	transition:0.5s;
+}
+
 /*FOOTER*/
 
 div.foot-text p{
@@ -124,7 +134,6 @@ div.social-icons img{
 	}
 }
 
-
 /*HOME PAGE IN MOBILE*/
 
 /*adding padding to the top and bottom of main content to seperate from nav*/
@@ -148,14 +157,17 @@ h1 a.main-call:hover{
 	color:#820D21;
 }
 
+/*adding fade in animation to h1s*/
 h1{
 	animation-name:fade-in;
 	animation-duration:1s;
 	animation-timing-function:linear;
+	/*opacity 0 and fill-mode forwards so each line can appear one after another without being there originally*/
 	animation-fill-mode:forwards;
 	opacity:0;
 }
 
+/*delays so h1s wiil appear in order*/
 h1:nth-child(2){
 	animation-delay:1s;
 }
@@ -347,23 +359,38 @@ div.port-grid{
 		margin:auto;
 	}
 
+	/*animation to have images fade in at different times*/
+	div.port-grid img{
+		animation-name:fade-in;
+		animation-duration:0.9s;
+		animation-timing-function:linear;
+		/*opacity 0 and fill-mode forwards so each image can appear one after another without being there originally*/
+		animation-fill-mode:forwards;
+		opacity:0;
+	}
+
+	/*seeting animation delays on different images at different times so they appear 1 by 1*/
 	/*first 2 images take up 50% of space*/
 	img.neo-cakes{
 		grid-column:1/7;
+		animation-delay:0.5s;
 	}
 
 	img.plant{
 		grid-column:7/13;
+		animation-delay:1.5s;
 	}
 
 	/*sci-fi poster stretching down two rows*/
 	img.sci-post{
 		grid-column:1/5;
 		grid-row:2/4;
+		animation-delay:1s;
 	}
 
 	img.owl-tree{
-		grid-column:5/9;	
+		grid-column:5/9;
+		animation-delay:2s;	
 	}
 
 	img.owl-sil{
@@ -372,6 +399,7 @@ div.port-grid{
 
 	img.park{
 		grid-column:5/13;
+		animation-delay:2.5s;
 	}
 
 	/*adjusting image sizes so that grid can look consistent and even*/
