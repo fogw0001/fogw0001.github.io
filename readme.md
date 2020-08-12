@@ -10,4 +10,6 @@ I learned a lot from this process and I am excited to do it again in the future.
 -Font used was Lato which is a google font designed by Łukasz Dziedzic
 -For logo I used the Black Ops One font designed by James Grieshaber and editted by me to create the logo.
 -Social media icons were downloaded from iconfinder.com and editted by me to change the color
--All other images belong to me, Matthew Fogwill
+-All other images belong to me, Matthew Fogwill  
+  
+Thank You
