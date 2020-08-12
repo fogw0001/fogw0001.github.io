@@ -7,9 +7,9 @@ The only other major issue I encountered with the coding aspect of this assignme
 ## Conclusion  
 I learned a lot from this process and I am excited to do it again in the future. I believe I will able to do much better with not only the design process, but making it simple for myself coding it later on as well.  
 ## Assets
--Font used was Lato which is a google font designed by Łukasz Dziedzic
--For logo I used the Black Ops One font designed by James Grieshaber and editted by me to create the logo.
--Social media icons were downloaded from iconfinder.com and editted by me to change the color
+-Font used was Lato which is a google font designed by Łukasz Dziedzic  
+-For logo I used the Black Ops One font designed by James Grieshaber and editted by me to create the logo.  
+-Social media icons were downloaded from iconfinder.com and editted by me to change the color  
 -All other images belong to me, Matthew Fogwill  
   
 Thank You
